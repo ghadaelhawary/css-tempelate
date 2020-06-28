@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+
+.navigationBar{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+
+
+}
+
+.navigationBar a {
+    padding: 5px;
+}
+.navigationBar i {
+    color: white;
+
+}
+
+
+.fistHeader{
+    text-align: center;
+    padding-top: 30px;
+  font-size: 30px;
+}
+
+.fistHeader span{
+    background-color: black;
+    color: white;
+}
+.container2{
+    width: 100%;
+    height:auto;
+    position: relative;
+    padding-top: 10px;
+}
+.secondHeader{
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.secondHeader img{
+    width: inherit;  
+}
+.p1{
+    position: absolute;
+    top: 350px;
+    left: 20px;
+   
+}
+.p1 h1{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.p1 h1.h1Bigger{
+    font-size: 60px;
+}
+
+.p1 button.btSub{
+    width: 110px;
+    height: 45px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid  rgb(240, 240, 240) ;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: .7;
+}
+
+
+.container3{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(240, 234, 234);
+    padding: 25px;
+
+}
+.container3  div.div1{
+    margin-bottom: 30px;
+}
+
+.container3  div.div2 {
+    width: 100%;
+    
+}
+.container3  div.div2 p{
+    margin: 15px;
+    font-size: 18px;
+}
+
+.leftContainer{
+    
+    height: auto;
+    margin-right: 10px;
+    
+    
+}
+.left1, .left2{
+    background-color: white;
+    padding: 20px;
+    margin-bottom:30px;
+
+}
+
+.leftContainer div.div1{
+    text-align: center;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.btSub{
+    border-radius: 5px;
+   
+}
+.end button{
+  width: 100px;
+  margin-top: 10px;
+  
+
+}
+.end button.like{
+    border: 1px solid gainsboro;
+    background-color: white;
+}
+.end :nth-child(2){
+    background-color:black;
+    border: 1px solid black;
+    color: white;
+}
+
+.end :nth-child(2) span{
+    background-color:white;
+    border: 1px solid white;
+
+    color:black;
+   
+}
+.footerEnd{
+    display: flex;
+    margin-top: 20px;
+}
+.footerEnd2{
+    margin-left:30px;
+    justify-content: center;
+}
+.footerEnd2 span{
+    color: rgb(172, 167, 167);
+}
+
+.head2{
+    margin-bottom: 50px;
+}
+
+
+.rightContainer
+{
+    
+    height: auto;
+    
+}
+.rightContainer div.right1 div{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+
+.rightContainer div.right1 div h4{
+    margin-bottom: 10px;
+}
+
+.rightContainer div.right2{
+
+}
+ div.top{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.rightContainer div.right2 div.menu{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+   
+
+}
+.rightContainer div.right2 div.menu li{
+    list-style: none;    
+    
+}
+.divCenter
+{
+    margin-top: 20px;
+}
+
+.out1
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.out2{
+    background-color: white;
+    padding: 15px;
+    
+}
+.out3
+{
+    background-color: rgb(196, 193, 193);
+     width: auto;
+    height: 150px;
+    padding: 30%;
+    
+}
+
+hr{
+    opacity: .5;
+}
+
+.left1{
+    margin-bottom: 50px;
+}
+.right3{
+    margin-bottom: 50px;
+}
+
+.right4{
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+}
+
+.insphpto{
+    background-color: white;
+    width:100%;
+    height: 100%;
+   
+    
+}
